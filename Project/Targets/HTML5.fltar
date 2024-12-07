@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-	Comment="MadCap HTML5 Target"
-	Type="WebHelp2"
-	Destinations=""
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
   ShowMadCapBacklink="true"
   GlossaryTermConversion="marked"
   ResolveCssVariables="true">
@@ -11,5 +11,17 @@
     CollapseMargins="true"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
-    GenerateGlossaryProxy="true"/>
+    GenerateGlossaryProxy="true" />
+  <MicroContentSearch>
+    <FeaturedSnippets
+      type="AllFiles"
+      numberOfResults="1">
+      <microContentSubset />
+    </FeaturedSnippets>
+    <KnowledgePanel
+      type="Empty"
+      numberOfResults="1">
+      <microContentSubset />
+    </KnowledgePanel>
+  </MicroContentSearch>
 </CatapultTarget>
